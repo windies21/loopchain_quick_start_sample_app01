@@ -9,7 +9,7 @@ class UserScore(ScoreBase):
     """ 기본 체인코드
         기본 체인코드는 아무런 역활을 하지 않는다
     """
-    def invoke(self, block):
+    def invoke(self, transaction, block):
         pass
 
     def query(self, params):
