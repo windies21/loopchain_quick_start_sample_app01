@@ -10,7 +10,7 @@ class UserScore(ScoreBase):
         기본 체인코드는 아무런 역활을 하지 않는다
     """
     def invoke(self, transaction, block):
-        pass
+        return {'code': 0}
 
     def query(self, params):
         logging.debug("in UserScore Query...")
